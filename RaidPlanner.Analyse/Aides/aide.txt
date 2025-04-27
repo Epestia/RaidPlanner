@@ -1,0 +1,21 @@
+DELETE FROM [RoleUtilisateur];
+DELETE FROM [Identifications];
+DELETE FROM [Utilisateurs];
+DELETE FROM [Roles];
+
+
+INSERT INTO Roles (Nom) VALUES ('Utilisateur');
+
+
+{
+  "id": 0,
+  "username": "Epestia",
+  "mail": "epestia.lumis@hotmail.com",
+  "password": "Epestia1",
+  "roles": [
+    {
+      "id": 0,
+      "nom": "string"
+    }
+  ]
+}
