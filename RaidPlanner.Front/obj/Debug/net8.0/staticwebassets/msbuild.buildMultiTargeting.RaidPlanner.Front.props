@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RaidPlanner.Front.props" />
+</Project>

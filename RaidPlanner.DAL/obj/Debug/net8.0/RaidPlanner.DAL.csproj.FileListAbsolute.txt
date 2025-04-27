@@ -1,0 +1,14 @@
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\bin\Debug\net8.0\RaidPlanner.DAL.deps.json
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\bin\Debug\net8.0\RaidPlanner.DAL.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\bin\Debug\net8.0\RaidPlanner.DAL.pdb
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.AssemblyInfoInputs.cache
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.AssemblyInfo.cs
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\refint\RaidPlanner.DAL.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.pdb
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\ref\RaidPlanner.DAL.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\bin\Debug\net8.0\RaidPlanner.DAL.runtimeconfig.json
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.csproj.AssemblyReference.cache
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.genruntimeconfig.cache

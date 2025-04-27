@@ -1,0 +1,31 @@
+﻿Table : 
+User : Username, mail, password
+
+Role : id, nom 
+
+Personnage : Id, name, level 
+
+Classe : id, nom, role
+
+identification : mail, password
+
+raid : id, nom, Extention, NombreDeboss, NiveauMinimum, Difficulté
+
+Recompense: id,nom, raidid, 
+
+Disponibilité : Id, UserId (FK), RaidId (FK), Date, Status 
+
+RaidSession : Id, RaidId, Date, HeureDebut,HeureFin, Description
+
+Relation
+
+User (1) ─── (n) Personnage (1) ─── (1) Classe
+
+User (n) ─── (1) Role
+
+User (1) ─── (n) Disponibilité (chacun pour une RaidSession)
+
+Raid (1) ─── (n) RaidSession
+
+Raid (1) ─── (n) Recompense
+ 
