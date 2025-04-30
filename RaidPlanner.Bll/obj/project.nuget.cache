@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RVtOfoEo8TU=",
+  "dgSpecHash": "Ba9m4gtn5vE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
+  "projectFilePath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Epestia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Epestia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

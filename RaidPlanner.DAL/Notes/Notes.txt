@@ -27,5 +27,5 @@ User (1) ─── (n) Disponibilité (chacun pour une RaidSession)
 
 Raid (1) ─── (n) RaidSession
 
-Raid (1) ─── (n) Recompense
+Raid (1) ─── (n) Recompenses
  

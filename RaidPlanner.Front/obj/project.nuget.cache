@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ehy+7EOI9Ew=",
+  "dgSpecHash": "+mggS3nhhZM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
+  "projectFilePath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Epestia\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.15\\microsoft.aspnetcore.authorization.8.0.15.nupkg.sha512",
     "C:\\Users\\Epestia\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.15\\microsoft.aspnetcore.components.8.0.15.nupkg.sha512",

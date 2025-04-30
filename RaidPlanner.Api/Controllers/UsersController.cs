@@ -1,6 +1,8 @@
 ﻿using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RaidPlanner.Api.Dto;
+using RaidPlanner.Api.Services;
 using RaidPlanner.Bll.ObjectModels;
 using RaidPlanner.Bll.Services.IServices;
 using System.Collections.Generic;
@@ -14,10 +16,12 @@ namespace RaidPlanner.Api.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly JwtOptions jwtOptions;
 
-        public UsersController(IUserService userService)
+        public UsersController(IUserService userService, JwtOptions jwtOptions)
         {
             _userService = userService;
+            this.jwtOptions = jwtOptions;
         }
 
         [HttpPost]
@@ -51,6 +55,8 @@ namespace RaidPlanner.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
+
         public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUsers()
         {
             var users = await _userService.GetAllUsersAsync();
@@ -93,5 +99,30 @@ namespace RaidPlanner.Api.Controllers
 
             return NoContent();
         }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(UserDto userDto)
+        {
+            //Appel sur service user pour verifier login et mot de passe
+            UserModel MonUser = new UserModel
+            {
+                Id = 1,
+                Mail = "dylan@zebest.java",
+                RoleId = 1,
+                Username = "Dylan"
+            };
+            //Si le mot de passe est correct 
+            if(MonUser == null) {
+                return NotFound();
+            }
+
+            //génération du jwt pour le user
+            userDto.Access_Token = JwtManager.GenerateToken(jwtOptions, userDto);
+
+            return Ok(userDto);
+
+        }
+
     }
+    
 }

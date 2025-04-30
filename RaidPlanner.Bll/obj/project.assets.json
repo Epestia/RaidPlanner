@@ -2789,9 +2789,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
+      "projectUniqueName": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
       "projectName": "RaidPlanner.Bll",
-      "projectPath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
+      "projectPath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
       "packagesPath": "C:\\Users\\Epestia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Bll\\obj\\",
       "projectStyle": "PackageReference",
@@ -2815,8 +2815,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.DAL\\RaidPlanner.DAL.csproj": {
-              "projectPath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.DAL\\RaidPlanner.DAL.csproj"
+            "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\RaidPlanner.DAL.csproj": {
+              "projectPath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\RaidPlanner.DAL.csproj"
             }
           }
         }

@@ -959,5 +959,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaidPlanner.Api.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "RaidPlanner.Api.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

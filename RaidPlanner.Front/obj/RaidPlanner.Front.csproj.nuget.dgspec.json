@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj": {}
+    "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj": {
+    "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
+        "projectUniqueName": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
         "projectName": "RaidPlanner.Front",
-        "projectPath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
+        "projectPath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\RaidPlanner.Front.csproj",
         "packagesPath": "C:\\Users\\Epestia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Epestia\\Desktop\\Raidplanner\\RaidPlanner.Front\\obj\\",
         "projectStyle": "PackageReference",

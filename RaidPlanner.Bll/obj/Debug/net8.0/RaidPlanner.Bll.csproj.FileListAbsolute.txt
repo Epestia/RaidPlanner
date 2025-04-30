@@ -13,3 +13,4 @@ C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Bll\bin\Debug\net8.0\RaidPlanne
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Bll\bin\Debug\net8.0\RaidPlanner.DAL.pdb
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Bll\obj\Debug\net8.0\RaidPlanner.Bll.csproj.AssemblyReference.cache
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Bll\obj\Debug\net8.0\RaidPlan.40FA37EC.Up2Date
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Bll\obj\Debug\net8.0\RaidPlanner.Bll.sourcelink.json

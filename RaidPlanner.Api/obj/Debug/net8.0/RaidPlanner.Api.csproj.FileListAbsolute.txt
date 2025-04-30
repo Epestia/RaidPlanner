@@ -151,3 +151,5 @@ C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Api\bin\Debug\net8.0\zh-Hans\Mi
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Epestia\Desktop\Raidplanner\RaidPlanner.Api\bin\Debug\net8.0\Mapster.dll
 C:\Users\Epestia\Desktop\Raidplanner\RaidPlanner.Api\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Api\obj\Debug\net8.0\RaidPlanner.Api.sourcelink.json
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
