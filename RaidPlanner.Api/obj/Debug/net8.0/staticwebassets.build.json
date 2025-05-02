@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "UrIZj9iSRLAJGzjRZqn5BydooK2RDIcIJef6UNvikcE=",
+  "Hash": "98RavvHY7bsOoRezZqJUvo1p9MttNEJyf8SvBmHF/Xk=",
   "Source": "RaidPlanner.Api",
   "BasePath": "_content/RaidPlanner.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

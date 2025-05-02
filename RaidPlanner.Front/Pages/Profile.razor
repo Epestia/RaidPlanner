@@ -1,0 +1,28 @@
+﻿@page "/profile"
+@using RaidPlanner.Front.Services
+@inject UserStateService UserState
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+
+<h3>Mon Profil</h3>
+
+@if (UserState.CurrentUser == null)
+{
+    <p>Vous n'êtes pas connecté.</p>
+}
+else
+{
+    <div>
+        <p><strong>Nom :</strong> @UserState.CurrentUser.Username</p>
+        <p><strong>Email :</strong> @UserState.CurrentUser.Mail</p>
+        <button class="btn btn-danger" @onclick="HandleLogout">Se déconnecter</button>
+    </div>
+}
+
+@code {
+    private void HandleLogout()
+    {
+        AuthService.Logout();
+        Navigation.NavigateTo("/");
+    }
+}

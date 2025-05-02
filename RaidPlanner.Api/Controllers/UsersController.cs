@@ -101,7 +101,7 @@ namespace RaidPlanner.Api.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login(UserDto userDto)
+        public async Task<IActionResult> Login(LoginDto loginDto)
         {
             //Appel sur service user pour verifier login et mot de passe
             UserModel MonUser = new UserModel
@@ -117,9 +117,9 @@ namespace RaidPlanner.Api.Controllers
             }
 
             //génération du jwt pour le user
-            userDto.Access_Token = JwtManager.GenerateToken(jwtOptions, userDto);
+            loginDto.Access_Token = JwtManager.GenerateToken(jwtOptions, loginDto);
 
-            return Ok(userDto);
+            return Ok(loginDto);
 
         }
 

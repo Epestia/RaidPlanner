@@ -1,0 +1,75 @@
+﻿@page "/create-character"
+@inject CharacterService CharacterService
+@using RaidPlanner.Front.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using RaidPlanner.Front.Services
+
+<h3>Créer un Personnage</h3>
+
+<EditForm Model="@characterDto" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Name">Nom du personnage</label>
+        <InputText id="Name" class="form-control" @bind-Value="characterDto.Name" />
+        <ValidationMessage For="@(() => characterDto.Name)" />
+    </div>
+
+    <div class="form-group">
+        <label for="Level">Niveau</label>
+        <InputNumber id="Level" class="form-control" @bind-Value="characterDto.Level" />
+        <ValidationMessage For="@(() => characterDto.Level)" />
+    </div>
+
+    <div class="form-group">
+        <label for="JobId">Job (Classe)</label>
+        <InputNumber id="JobId" class="form-control" @bind-Value="characterDto.JobId" />
+        <ValidationMessage For="@(() => characterDto.JobId)" />
+    </div>
+
+    <div class="form-group">
+        <label for="UserId">ID de l'utilisateur</label>
+        <InputNumber id="UserId" class="form-control" @bind-Value="characterDto.UserId" />
+        <ValidationMessage For="@(() => characterDto.UserId)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+</EditForm>
+
+@if (isSuccess)
+{
+    <div class="alert alert-success mt-3">
+        Personnage créé avec succès!
+    </div>
+}
+@if (isError)
+{
+    <div class="alert alert-danger mt-3">
+        Une erreur s'est produite lors de la création du personnage.
+    </div>
+}
+
+@code {
+    private CharacterDto characterDto = new CharacterDto();
+    private bool isSuccess = false;
+    private bool isError = false;
+
+    private async Task HandleValidSubmit()
+    {
+        isSuccess = false;
+        isError = false;
+
+        // Appel du service pour créer le personnage
+        bool result = await CharacterService.CreateCharacterAsync(characterDto);
+
+        if (result)
+        {
+            isSuccess = true;
+        }
+        else
+        {
+            isError = true;
+        }
+    }
+}

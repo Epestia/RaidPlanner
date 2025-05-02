@@ -10,9 +10,5 @@
 
         public string Password { get; set; }  
 
-        public int RoleId { get; set; }
-
-        public string Access_Token { get; set; }
-        public string Refresh_Token { get; set; }
     }
 }

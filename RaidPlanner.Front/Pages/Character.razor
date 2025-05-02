@@ -1,0 +1,35 @@
+﻿@page "/character"
+@inject CharacterService CharacterService
+@inject UserStateService UserState
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+
+<h3>Mon personnage</h3>
+
+@if (character == null)
+{
+    <p>Chargement ou personnage introuvable...</p>
+}
+else
+{
+    <div class="card p-3">
+        <h4>@character.Name</h4>
+        <ul>
+            <li><strong>ID:</strong> @character.Id</li>
+            <li><strong>Niveau:</strong> @character.Level</li>
+            <li><strong>Job ID:</strong> @character.JobId</li>
+        </ul>
+    </div>
+}
+
+@code {
+    private CharacterDto? character;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserState.CurrentUser is not null)
+        {
+            character = await CharacterService.GetCharacterForUserAsync(UserState.CurrentUser.Id);
+        }
+    }
+}

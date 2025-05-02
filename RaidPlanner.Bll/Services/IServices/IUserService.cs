@@ -12,5 +12,7 @@ namespace RaidPlanner.Bll.Services.IServices
         Task<UserModel> CreateUserAsync(UserModel userModel);
         Task<UserModel> UpdateUserAsync(UserModel userModel);
         Task<bool> DeleteUserAsync(int userId);
+        Task<UserModel?> ValidateUser(string username, string password);
+
     }
 }

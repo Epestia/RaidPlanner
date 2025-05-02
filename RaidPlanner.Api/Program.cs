@@ -59,7 +59,15 @@ builder.Services.AddSingleton(options);
 
 BllDalMappingConfig.ConfigureMappings();
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("https://localhost:7090")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddSwaggerGen(option =>
 {
@@ -113,7 +121,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
-
+app.UseCors();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

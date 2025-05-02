@@ -31,7 +31,7 @@ namespace RaidPlanner.Bll.Services
 
         public async Task<UserModel> CreateUserAsync(UserModel userModel)
         {
-            var role = await _roleRepository.GetByIdAsync(2);
+            var role = await _roleRepository.GetByIdAsync(1);
             if (role != null)
             {
                 var user = new User
@@ -80,5 +80,22 @@ namespace RaidPlanner.Bll.Services
 
             return true;
         }
+
+        public async Task<UserModel?> ValidateUser(string username, string password)
+        {
+            var users = await _userRepository.GetAllAsync();
+            var user = users.FirstOrDefault(u => u.Username == username && u.Password == password);
+
+            if (user == null)
+                return null;
+
+            return new UserModel
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Mail = user.Mail
+            };
+        }
+
     }
 }

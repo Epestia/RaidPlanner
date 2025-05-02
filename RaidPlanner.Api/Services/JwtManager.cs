@@ -10,7 +10,7 @@ namespace RaidPlanner.Api.Services
 {
     public class JwtManager
     {
-        public static string GenerateToken(JwtOptions jwtoption, UserDto u)
+        public static string GenerateToken(JwtOptions jwtoption, LoginDto u)
         {
             //Générer le token et le renvoyer
             //1- string key vers byte key

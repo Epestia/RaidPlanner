@@ -1,0 +1,29 @@
+﻿@page "/create-user"
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+@inject UserService UserService
+
+<h3>Créer un Utilisateur</h3>
+
+<EditForm Model="@newUser" OnValidSubmit="HandleValidSubmit">
+    <InputText @bind-Value="newUser.Username" placeholder="Username" class="form-control" />
+    <InputText @bind-Value="newUser.Mail" placeholder="Email" class="form-control" />
+    <InputText @bind-Value="newUser.Password" placeholder="Password" type="password" class="form-control" />
+    <button type="submit" class="btn btn-primary mt-2">Envoyer</button>
+</EditForm>
+
+@if (result != null)
+{
+    <p>@result</p>
+}
+
+@code {
+    private UserDto newUser = new UserDto();
+    private string result;
+
+    private async Task HandleValidSubmit()
+    {
+        bool success = await UserService.CreateUserAsync(newUser);
+        result = success ? "Utilisateur créé avec succès." : "Erreur lors de la création.";
+    }
+}
