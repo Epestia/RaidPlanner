@@ -1,0 +1,9 @@
+﻿Vdi :   
+"ConnectionStrings": {
+    "DefaultConnection": "Data Source=GOS-VDI206\\TFTIC;Initial Catalog=RaidPlanner;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;"
+  },
+
+Pc : 
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DESKTOP-TIGESIU;Initial Catalog=RaidPlanner;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False"
+  },

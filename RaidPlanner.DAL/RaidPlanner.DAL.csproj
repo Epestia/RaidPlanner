@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Models\Enum\" />
-    <Folder Include="Notes\" />
   </ItemGroup>
 
   <ItemGroup>
