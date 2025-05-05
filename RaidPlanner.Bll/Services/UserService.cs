@@ -31,7 +31,7 @@ namespace RaidPlanner.Bll.Services
 
         public async Task<UserModel> CreateUserAsync(UserModel userModel)
         {
-            var role = await _roleRepository.GetByIdAsync(1);
+            var role = await _roleRepository.GetByIdAsync(2);
             if (role != null)
             {
                 var user = new User
