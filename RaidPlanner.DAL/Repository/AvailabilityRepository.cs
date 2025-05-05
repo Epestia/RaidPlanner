@@ -54,5 +54,11 @@ namespace RaidPlanner.DAL.Repository
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<List<Availability>> GetByUserIdAsync(int userId)
+        {
+            return await _context.Availabilities
+                .Where(a => a.UserId == userId)
+                .ToListAsync();
+        }
     }
 }

@@ -1,0 +1,92 @@
+﻿@page "/create-availability"
+@using RaidPlanner.Front.Models
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@inject RaidPlanner.Front.Services.UserStateService UserState
+@inject RaidPlanner.Front.Services.RaidSessionService RaidSessionService
+
+<h3>Créer une disponibilité</h3>
+
+@if (UserState.CurrentUser == null)
+{
+    <p>Veuillez vous connecter pour définir une disponibilité.</p>
+}
+else
+{
+    <EditForm Model="availability" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <!-- Sélectionner la session de raid -->
+        <div class="mb-3">
+            <label class="form-label">Session de raid</label>
+            <select class="form-control" @onchange="OnRaidSessionSelected">
+                <option value="">-- Sélectionner --</option>
+                @foreach (var raid in raidSessions)
+                {
+                    <option value="@raid.Id">@raid.Description</option>
+                }
+            </select>
+        </div>
+
+        <!-- Afficher la date sélectionnée automatiquement depuis la session de raid -->
+        <div class="mb-3">
+            <label class="form-label">Date</label>
+            <InputDate class="form-control" @bind-Value="availability.Date" disabled />
+        </div>
+
+        <!-- Statut de la disponibilité -->
+        <div class="mb-3">
+            <label class="form-label">Statut</label>
+            <InputText class="form-control" @bind-Value="availability.Status" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Créer</button>
+    </EditForm>
+}
+
+@code {
+    private AvailabilityDto availability = new();
+    private List<RaidSessionDto> raidSessions = new();
+    private int selectedRaidSessionId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserState.CurrentUser != null)
+        {
+            availability.UserId = UserState.CurrentUser.Id;
+        }
+
+        // Récupérer les sessions de raid via le service
+        raidSessions = await RaidSessionService.GetRaidSessionsAsync();
+    }
+
+    private void OnRaidSessionSelected(ChangeEventArgs e)
+    {
+        var selectedRaidId = int.Parse(e.Value.ToString());
+
+        // Trouver la session de raid sélectionnée
+        var selectedRaid = raidSessions.FirstOrDefault(r => r.Id == selectedRaidId);
+        if (selectedRaid != null)
+        {
+            // Mettre à jour la date et l'ID de la session de raid dans l'objet Availability
+            availability.Date = selectedRaid.Date;
+            availability.RaidSessionId = selectedRaid.Id; // Mise à jour du RaidSessionId
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        // Envoi de la demande de création de disponibilité avec la RaidSessionId
+        var response = await Http.PostAsJsonAsync("api/availability", availability);
+
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            Console.WriteLine("Erreur lors de la création de la disponibilité.");
+        }
+    }
+}

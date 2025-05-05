@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7WIVpUDk76SyzZpd/9fhtyil7lFlP/t6p+gnkbQbkh4=",
+  "Hash": "pHajJCLbKVieBCb00FUpULOkGcG1vfmOI+tw9kJo7a0=",
   "Source": "RaidPlanner.Front",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "hhoxw5957w",
-      "Integrity": "y+HotPo0tiv/r5RYg5KtuFHpn3jIFWkMCdhHoHMUOag=",
+      "Fingerprint": "0dcdx344vy",
+      "Integrity": "LJMcDYVCgBG7YRTsH37Y//QyEBE8TF0zeYyNEY4sdSA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "0mptxfh67r",
-      "Integrity": "GOy0JUKPnLKFhaD6CfoVBeuZG77t6D1nukLJrCtaCzs=",
+      "Fingerprint": "d954gwqkfn",
+      "Integrity": "X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\RaidPlanner.Front.pdb"
@@ -913,8 +913,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "yl32f90mqc",
-      "Integrity": "Os6akYVenaKRBYGDDz8mGmESBvg8SwCSLQPrPCRRYj8=",
+      "Fingerprint": "3vgko5lqds",
+      "Integrity": "oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\webcil\\RaidPlanner.Front.wasm"
@@ -4700,7 +4700,7 @@
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Reader.wasm"
     },
     {
-      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-0mptxfh67r.gz",
+      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-d954gwqkfn.gz",
       "SourceId": "RaidPlanner.Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -4714,8 +4714,8 @@
       "RelatedAsset": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RaidPlanner.Front.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0s03icadl5",
-      "Integrity": "UPeH9X/4ORKJQOCiBoX/PAvooZ2t9ABmBAh2ADc/Dxk=",
+      "Fingerprint": "vefhonfa6o",
+      "Integrity": "uVMRVR9HDS2d/3m0Oy7h1coBXYCTH6QFu6c7YiPmQ8s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RaidPlanner.Front.pdb"
@@ -6569,7 +6569,7 @@
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.wasm"
     },
     {
-      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-hhoxw5957w.gz",
+      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-0dcdx344vy.gz",
       "SourceId": "RaidPlanner.Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -6583,8 +6583,8 @@
       "RelatedAsset": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kbr9exo1w3",
-      "Integrity": "cFsP4IYWAdbIvLVWZB4TGMm4W7HSvEe5z8OrOjkRIHE=",
+      "Fingerprint": "dmdmcxkaib",
+      "Integrity": "dV5cNnr5MR8J+ieYbwykWbj3lc8iPwdEf362kC27LHs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6842,7 +6842,7 @@
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-yl32f90mqc.gz",
+      "Identity": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-3vgko5lqds.gz",
       "SourceId": "RaidPlanner.Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -6856,8 +6856,8 @@
       "RelatedAsset": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RaidPlanner.Front.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l434v26z8r",
-      "Integrity": "1c+TBD++i/t52HIiAXB22vbMnYukfIXe1b1sleCr8XI=",
+      "Fingerprint": "o2dftceck3",
+      "Integrity": "8LzP7RxO+ak+G5aQknBiyzIXS451RuFiDn9nr5nQrOY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RaidPlanner.Front.wasm"
@@ -8857,11 +8857,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y+HotPo0tiv/r5RYg5KtuFHpn3jIFWkMCdhHoHMUOag=\""
+          "Value": "\"LJMcDYVCgBG7YRTsH37Y//QyEBE8TF0zeYyNEY4sdSA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:48:40 GMT"
+          "Value": "Mon, 05 May 2025 15:43:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8871,18 +8871,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y+HotPo0tiv/r5RYg5KtuFHpn3jIFWkMCdhHoHMUOag="
+          "Value": "sha256-LJMcDYVCgBG7YRTsH37Y//QyEBE8TF0zeYyNEY4sdSA="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-hhoxw5957w.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-0dcdx344vy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000113071009"
+          "Quality": "0.000113032666"
         }
       ],
       "ResponseHeaders": [
@@ -8892,15 +8892,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8843"
+          "Value": "8846"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFsP4IYWAdbIvLVWZB4TGMm4W7HSvEe5z8OrOjkRIHE=\""
+          "Value": "\"dV5cNnr5MR8J+ieYbwykWbj3lc8iPwdEf362kC27LHs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8920,19 +8920,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y+HotPo0tiv/r5RYg5KtuFHpn3jIFWkMCdhHoHMUOag=\""
+          "Value": "W/\"LJMcDYVCgBG7YRTsH37Y//QyEBE8TF0zeYyNEY4sdSA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y+HotPo0tiv/r5RYg5KtuFHpn3jIFWkMCdhHoHMUOag="
+          "Value": "sha256-LJMcDYVCgBG7YRTsH37Y//QyEBE8TF0zeYyNEY4sdSA="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-hhoxw5957w.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\ilj514asow-0dcdx344vy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8941,7 +8941,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8843"
+          "Value": "8846"
         },
         {
           "Name": "Content-Type",
@@ -8949,11 +8949,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFsP4IYWAdbIvLVWZB4TGMm4W7HSvEe5z8OrOjkRIHE=\""
+          "Value": "\"dV5cNnr5MR8J+ieYbwykWbj3lc8iPwdEf362kC27LHs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8971,7 +8971,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cFsP4IYWAdbIvLVWZB4TGMm4W7HSvEe5z8OrOjkRIHE="
+          "Value": "sha256-dV5cNnr5MR8J+ieYbwykWbj3lc8iPwdEf362kC27LHs="
         }
       ]
     },
@@ -14466,7 +14466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42976"
+          "Value": "56352"
         },
         {
           "Name": "Content-Type",
@@ -14474,11 +14474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GOy0JUKPnLKFhaD6CfoVBeuZG77t6D1nukLJrCtaCzs=\""
+          "Value": "\"X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:48:40 GMT"
+          "Value": "Mon, 05 May 2025 15:43:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14488,18 +14488,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GOy0JUKPnLKFhaD6CfoVBeuZG77t6D1nukLJrCtaCzs="
+          "Value": "sha256-X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8="
         }
       ]
     },
     {
       "Route": "_framework/RaidPlanner.Front.pdb",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-0mptxfh67r.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-d954gwqkfn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000030929110"
+          "Quality": "0.000023678166"
         }
       ],
       "ResponseHeaders": [
@@ -14509,15 +14509,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32331"
+          "Value": "42232"
         },
         {
           "Name": "ETag",
-          "Value": "\"UPeH9X/4ORKJQOCiBoX/PAvooZ2t9ABmBAh2ADc/Dxk=\""
+          "Value": "\"uVMRVR9HDS2d/3m0Oy7h1coBXYCTH6QFu6c7YiPmQ8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14537,19 +14537,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GOy0JUKPnLKFhaD6CfoVBeuZG77t6D1nukLJrCtaCzs=\""
+          "Value": "W/\"X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GOy0JUKPnLKFhaD6CfoVBeuZG77t6D1nukLJrCtaCzs="
+          "Value": "sha256-X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8="
         }
       ]
     },
     {
       "Route": "_framework/RaidPlanner.Front.pdb.gz",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-0mptxfh67r.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\3ses2uabcb-d954gwqkfn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14558,7 +14558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32331"
+          "Value": "42232"
         },
         {
           "Name": "Content-Type",
@@ -14566,11 +14566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UPeH9X/4ORKJQOCiBoX/PAvooZ2t9ABmBAh2ADc/Dxk=\""
+          "Value": "\"uVMRVR9HDS2d/3m0Oy7h1coBXYCTH6QFu6c7YiPmQ8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14588,7 +14588,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UPeH9X/4ORKJQOCiBoX/PAvooZ2t9ABmBAh2ADc/Dxk="
+          "Value": "sha256-uVMRVR9HDS2d/3m0Oy7h1coBXYCTH6QFu6c7YiPmQ8s="
         }
       ]
     },
@@ -14603,7 +14603,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51989"
+          "Value": "78613"
         },
         {
           "Name": "Content-Type",
@@ -14611,11 +14611,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Os6akYVenaKRBYGDDz8mGmESBvg8SwCSLQPrPCRRYj8=\""
+          "Value": "\"oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:48:40 GMT"
+          "Value": "Mon, 05 May 2025 15:43:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14625,18 +14625,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Os6akYVenaKRBYGDDz8mGmESBvg8SwCSLQPrPCRRYj8="
+          "Value": "sha256-oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk="
         }
       ]
     },
     {
       "Route": "_framework/RaidPlanner.Front.wasm",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-yl32f90mqc.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-3vgko5lqds.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000050142907"
+          "Quality": "0.000034634434"
         }
       ],
       "ResponseHeaders": [
@@ -14646,15 +14646,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19942"
+          "Value": "28872"
         },
         {
           "Name": "ETag",
-          "Value": "\"1c+TBD++i/t52HIiAXB22vbMnYukfIXe1b1sleCr8XI=\""
+          "Value": "\"8LzP7RxO+ak+G5aQknBiyzIXS451RuFiDn9nr5nQrOY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14674,19 +14674,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Os6akYVenaKRBYGDDz8mGmESBvg8SwCSLQPrPCRRYj8=\""
+          "Value": "W/\"oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Os6akYVenaKRBYGDDz8mGmESBvg8SwCSLQPrPCRRYj8="
+          "Value": "sha256-oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk="
         }
       ]
     },
     {
       "Route": "_framework/RaidPlanner.Front.wasm.gz",
-      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-yl32f90mqc.gz",
+      "AssetFile": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\l7lz3njxnt-3vgko5lqds.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14695,7 +14695,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19942"
+          "Value": "28872"
         },
         {
           "Name": "Content-Type",
@@ -14703,11 +14703,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1c+TBD++i/t52HIiAXB22vbMnYukfIXe1b1sleCr8XI=\""
+          "Value": "\"8LzP7RxO+ak+G5aQknBiyzIXS451RuFiDn9nr5nQrOY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 10:47:44 GMT"
+          "Value": "Mon, 05 May 2025 15:43:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14725,7 +14725,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1c+TBD++i/t52HIiAXB22vbMnYukfIXe1b1sleCr8XI="
+          "Value": "sha256-8LzP7RxO+ak+G5aQknBiyzIXS451RuFiDn9nr5nQrOY="
         }
       ]
     },

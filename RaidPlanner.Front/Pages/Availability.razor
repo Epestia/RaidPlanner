@@ -1,0 +1,44 @@
+﻿@page "/Availability"
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+@inject AvailabilityService AvailabilityService
+@inject IJSRuntime JSRuntime
+
+<h3>Mes disponibilités</h3>
+
+@if (userAvailability == null || userAvailability.Count == 0)
+{
+    <p>Aucune disponibilité trouvée.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Description de la session de Raid</th> <!-- Afficher la description de la session -->
+                <th>Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var availability in userAvailability)
+            {
+                <tr>
+                    <td>@availability.RaidSessionDescription</td> <!-- Afficher la description -->
+                    <td>@availability.Date.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@availability.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<AvailabilityDto> userAvailability = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        int userId = 9; // Utilisateur connecté ou un ID d'exemple
+        userAvailability = await AvailabilityService.GetAvailabilityByUserIdAsync(userId);
+    }
+}

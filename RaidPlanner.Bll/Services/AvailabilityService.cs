@@ -7,6 +7,7 @@ using RaidPlanner.Bll.Mappers;
 using Mapster;
 using RaidPlanner.Bll.Services.IServices;
 using RaidPlanner.DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace RaidPlanner.Bll.Services
 {
@@ -46,6 +47,13 @@ namespace RaidPlanner.Bll.Services
         public async Task DeleteAvailabilityAsync(int id)
         {
             await _availabilityRepository.DeleteAvailabilityAsync(id);
+        }
+
+        // Correction de la méthode GetAvailabilitiesByUserIdAsync
+        public async Task<List<AvailabilityModel>> GetAvailabilitiesByUserIdAsync(int userId)
+        {
+            var availabilities = await _availabilityRepository.GetByUserIdAsync(userId);
+            return availabilities.Select(a => a.Adapt<AvailabilityModel>()).ToList();
         }
     }
 }

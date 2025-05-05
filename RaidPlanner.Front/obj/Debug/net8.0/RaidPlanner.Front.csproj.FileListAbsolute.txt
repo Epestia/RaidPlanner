@@ -2067,6 +2067,6 @@ C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\refint
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\RaidPlanner.Front.pdb
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\ref\RaidPlanner.Front.dll
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\RaidPlanner.Front.sourcelink.json
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\l7lz3njxnt-yl32f90mqc.gz
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\3ses2uabcb-0mptxfh67r.gz
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\ilj514asow-hhoxw5957w.gz
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\l7lz3njxnt-3vgko5lqds.gz
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\3ses2uabcb-d954gwqkfn.gz
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\ilj514asow-0dcdx344vy.gz

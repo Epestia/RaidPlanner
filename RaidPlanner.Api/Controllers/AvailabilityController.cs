@@ -65,5 +65,17 @@ namespace RaidPlanner.Api.Controllers
             await _availabilityService.DeleteAvailabilityAsync(id);
             return NoContent();
         }
+
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<List<AvailabilityDto>>> GetByUserId(int userId)
+        {
+            var availabilities = await _availabilityService.GetAvailabilitiesByUserIdAsync(userId);
+            if (availabilities == null || !availabilities.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(availabilities);
+        }
     }
 }

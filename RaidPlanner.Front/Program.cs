@@ -12,6 +12,9 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddSingleton<UserStateService>();
 builder.Services.AddScoped<CharacterService>();
 builder.Services.AddScoped<JobService>();
+builder.Services.AddScoped<AvailabilityService>();
+builder.Services.AddScoped<RaidService>();
+builder.Services.AddScoped<RaidSessionService>();
 
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7131/") });

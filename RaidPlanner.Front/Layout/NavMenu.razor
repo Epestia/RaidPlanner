@@ -1,8 +1,7 @@
 ﻿@inject RaidPlanner.Front.Services.UserStateService UserState
 
-<div class="top-row ps-3 navbar navbar-dark">
+<div class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <!-- Remplacer le texte par l'image du logo -->
         <a class="navbar-brand" href="">
             <img src="Assets/Logo/Logo.png" alt="Logo" style="height: 40px;" />
         </a>
@@ -12,40 +11,59 @@
     </div>
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+<div class="@NavMenuCssClass nav-scrollable">
+    <nav class="flex-column py-2 px-3">
+        <div class="nav-item mb-3">
+            <NavLink class="nav-link text-white" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill" aria-hidden="true"></span> Accueil
             </NavLink>
         </div>
 
         @if (UserState.CurrentUser is null)
         {
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="login">
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="login">
                     <span class="bi bi-box-arrow-in-right" aria-hidden="true"></span> Se connecter
                 </NavLink>
             </div>
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="create-user">
-                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Créer utilisateur
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="create-user">
+                    <span class="bi bi-person-plus" aria-hidden="true"></span> Créer un utilisateur
                 </NavLink>
             </div>
         }
         else
         {
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="profile">
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="profile">
                     <span class="bi bi-person-circle" aria-hidden="true"></span> Mon profil
                 </NavLink>
             </div>
-            <NavLink class="nav-link" href="character">
-                <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Voir personnage
-            </NavLink>
-            <NavLink class="nav-link" href="create-character">
-                <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Créer personnage
-            </NavLink>
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="character">
+                    <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Voir mes personnages
+                </NavLink>
+            </div>
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="create-character">
+                    <span class="bi bi-person-plus" aria-hidden="true"></span> Créer un personnage
+                </NavLink>
+            </div>
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="create-availability">
+                    <span class="bi bi-calendar-plus" aria-hidden="true"></span> Ajouter une disponibilité
+                </NavLink>
+            </div>
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="Availability">
+                    <span class="bi bi-calendar-check" aria-hidden="true"></span> Mes raids inscrits
+                </NavLink>
+            </div>
+            <div class="nav-item mb-3">
+                <NavLink class="nav-link text-white" href="raid-sessions">
+                    <span class="bi bi-joystick" aria-hidden="true"></span> Voir session de raid
+                </NavLink>
+            </div>
         }
     </nav>
 </div>
@@ -53,7 +71,7 @@
 @code {
     private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collpse" : null;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "nav-open";
 
     private void ToggleNavMenu()
     {

@@ -11,5 +11,7 @@ namespace RaidPlanner.Bll.Services.IServices
         Task AddAvailabilityAsync(AvailabilityModel availabilityModel);
         Task UpdateAvailabilityAsync(AvailabilityModel availabilityModel);
         Task DeleteAvailabilityAsync(int id);
+        Task<List<AvailabilityModel>> GetAvailabilitiesByUserIdAsync(int userId);
+
     }
 }

@@ -11,5 +11,6 @@ namespace RaidPlanner.DAL.Repository.IRepository
         Task AddAvailabilityAsync(Availability availability);
         Task UpdateAvailabilityAsync(Availability availability);
         Task DeleteAvailabilityAsync(int id);
+        Task<List<Availability>> GetByUserIdAsync(int userId);
     }
 }

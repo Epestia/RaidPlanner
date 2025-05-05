@@ -28,12 +28,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Availability.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhaWxhYmlsaXR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Character.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateAvailability.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQXZhaWxhYmlsaXR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateCharacter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQ2hhcmFjdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateRaidSession.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUmFpZFNlc3Npb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateUser.razor]
@@ -54,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/RaidSession.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFpZFNlc3Npb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/_Imports.razor]

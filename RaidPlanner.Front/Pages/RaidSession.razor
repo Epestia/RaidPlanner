@@ -1,0 +1,73 @@
+﻿@page "/raid-sessions"
+@using RaidPlanner.Front.Models
+@inject HttpClient Http
+@inject RaidPlanner.Front.Services.RaidSessionService RaidSessionService
+@inject RaidPlanner.Front.Services.UserService UserService
+
+<h3>Toutes les Sessions de Raid</h3>
+
+@if (raidSessions == null || raidSessions.Count == 0)
+{
+    <p>Aucune session de raid disponible.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Ajouter disponilité</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var raid in raidSessions)
+            {
+                <tr>
+                    <td>@raid.Description</td>
+                    <td>@raid.Date.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        <a class="btn btn-outline-success btn-sm ms-2" href="create-availability">
+                            Ajouter disponibilité
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+
+@if (usersForRaidSession.Any())
+{
+    <h5>Utilisateurs inscrits à la session @selectedRaidSessionId :</h5>
+    <ul>
+        @foreach (var user in usersForRaidSession)
+        {
+            <li>@user.Username (@user.Mail)</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<RaidSessionDto> raidSessions = new();
+    private List<UserDto> usersForRaidSession = new();
+    private int selectedRaidSessionId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        raidSessions = await RaidSessionService.GetRaidSessionsAsync();
+    }
+
+    private async Task ViewUsers(int raidSessionId)
+    {
+        selectedRaidSessionId = raidSessionId;
+        usersForRaidSession = await UserService.GetUsersForRaidSessionFromAvailabilityAsync(raidSessionId);
+    }
+
+
+    private void ViewRaidSession(int raidId)
+    {
+        Console.WriteLine($"Voir les détails de la session de raid avec l'ID: {raidId}");
+    }
+}
