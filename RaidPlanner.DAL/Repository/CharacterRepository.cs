@@ -54,5 +54,14 @@ namespace RaidPlanner.DAL.Repository
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<IEnumerable<Character>> GetCharactersByUserIdAsync(int userId)
+        {
+            return await _context.Characters
+                .Include(c => c.User)
+                .Include(c => c.Job)
+                .Where(c => c.UserId == userId)
+                .ToListAsync();
+        }
+
     }
 }

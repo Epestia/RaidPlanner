@@ -1019,9 +1019,6 @@ C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compress
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\67dk44myj3-tptq2av103.gz
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\8b11i4mh10-lfu7j35m59.gz
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\4r057v6gev-oyz0vx2fzb.gz
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\l7lz3njxnt-bek2i1sdgq.gz
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\3ses2uabcb-hgftb8ners.gz
-C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\ilj514asow-kwtdum0z5p.gz
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -2069,3 +2066,7 @@ C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\RaidPl
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\refint\RaidPlanner.Front.dll
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\RaidPlanner.Front.pdb
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\ref\RaidPlanner.Front.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\RaidPlanner.Front.sourcelink.json
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\l7lz3njxnt-yl32f90mqc.gz
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\3ses2uabcb-0mptxfh67r.gz
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\obj\Debug\net8.0\compressed\ilj514asow-hhoxw5957w.gz

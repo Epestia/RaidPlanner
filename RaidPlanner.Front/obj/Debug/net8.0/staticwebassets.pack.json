@@ -1,44 +1,48 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\compressed\\xzrepzw5ky.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
-    },
-    {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RaidPlanner.Front.styles.css",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RaidPlanner.Front.styles.css",
       "PackagePath": "staticwebassets\\RaidPlanner.Front.styles.css"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\Assets\\Logo\\Logo.png",
+      "PackagePath": "staticwebassets\\Assets\\Logo\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\d.menegon\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RaidPlanner.Front.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RaidPlanner.Front.Microsoft.AspNetCore.StaticWebAssets.props",

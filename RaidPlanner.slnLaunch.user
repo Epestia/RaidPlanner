@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nouveau profil",
+    "Projects": [
+      {
+        "Path": "RaidPlanner.Api\\RaidPlanner.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RaidPlanner.Front\\RaidPlanner.Front.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

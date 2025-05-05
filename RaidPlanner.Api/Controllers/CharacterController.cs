@@ -95,5 +95,16 @@ namespace RaidPlanner.Api.Controllers
 
             return NoContent();
         }
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<IEnumerable<CharacterModel>>> GetCharactersByUserId(int userId)
+        {
+            var characters = await _characterService.GetCharactersByUserIdAsync(userId);
+            if (characters == null || !characters.Any())
+                return NotFound();
+
+            return Ok(characters);
+        }
+
+
     }
 }

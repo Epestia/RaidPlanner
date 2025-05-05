@@ -11,5 +11,7 @@
         public int UserId { get; set; }
 
         public int JobId { get; set; }
+        public string? JobName { get; set; }
+
     }
 }

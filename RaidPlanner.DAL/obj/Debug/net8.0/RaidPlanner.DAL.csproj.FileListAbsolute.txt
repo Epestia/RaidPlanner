@@ -27,3 +27,4 @@ C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\refint\R
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.pdb
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.genruntimeconfig.cache
 C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\ref\RaidPlanner.DAL.dll
+C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.DAL\obj\Debug\net8.0\RaidPlanner.DAL.sourcelink.json

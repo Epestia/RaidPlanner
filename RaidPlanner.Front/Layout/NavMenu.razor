@@ -2,7 +2,10 @@
 
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">RaidPlanner.Front</a>
+        <!-- Remplacer le texte par l'image du logo -->
+        <a class="navbar-brand" href="">
+            <img src="Assets/Logo/Logo.png" alt="Logo" style="height: 40px;" />
+        </a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -15,12 +18,6 @@
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
-
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="create-user">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Créer utilisateur
-            </NavLink>
         </div>
 
         @if (UserState.CurrentUser is null)
@@ -28,6 +25,11 @@
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="login">
                     <span class="bi bi-box-arrow-in-right" aria-hidden="true"></span> Se connecter
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="create-user">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Créer utilisateur
                 </NavLink>
             </div>
         }
@@ -38,15 +40,13 @@
                     <span class="bi bi-person-circle" aria-hidden="true"></span> Mon profil
                 </NavLink>
             </div>
-            <NavLink class="nav-link" href="character/1">
-                <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Voir personnage #1
+            <NavLink class="nav-link" href="character">
+                <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Voir personnage
+            </NavLink>
+            <NavLink class="nav-link" href="create-character">
+                <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Créer personnage
             </NavLink>
         }
-        <NavLink class="nav-link" href="character/1">
-            <span class="bi bi-person-lines-fill" aria-hidden="true"></span> Voir personnage #1
-        </NavLink>
-
-
     </nav>
 </div>
 

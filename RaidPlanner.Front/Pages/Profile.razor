@@ -17,6 +17,14 @@ else
         <p><strong>Email :</strong> @UserState.CurrentUser.Mail</p>
         <button class="btn btn-danger" @onclick="HandleLogout">Se déconnecter</button>
     </div>
+
+    <div class="mt-3">
+        <h4>Gérer mes personnages</h4>
+        <ul>
+            <li><NavLink href="/character">Voir mes personnages</NavLink></li>
+            <li><NavLink href="/create-character">Créer un personnage</NavLink></li>
+        </ul>
+    </div>
 }
 
 @code {

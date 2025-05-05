@@ -11,5 +11,8 @@ namespace RaidPlanner.DAL.Repository.IRepository
         Task AddCharacterAsync(Character character);
         Task UpdateCharacterAsync(Character character);
         Task DeleteCharacterAsync(int id);
+        Task<IEnumerable<Character>> GetCharactersByUserIdAsync(int userId);
+
+
     }
 }

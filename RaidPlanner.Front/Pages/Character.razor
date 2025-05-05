@@ -1,35 +1,62 @@
 ﻿@page "/character"
 @inject CharacterService CharacterService
+@inject JobService JobService
 @inject UserStateService UserState
+@inject NavigationManager Navigation
 @using RaidPlanner.Front.Models
 @using RaidPlanner.Front.Services
 
-<h3>Mon personnage</h3>
+<h3>Mes personnages</h3>
 
-@if (character == null)
+@if (UserState.CurrentUser is null)
 {
-    <p>Chargement ou personnage introuvable...</p>
+    <p>Vous devez être connecté pour voir cette page.</p>
+}
+else if (characters == null || jobs == null)
+{
+    <p>Chargement des personnages...</p>
+}
+else if (!characters.Any())
+{
+    <p>Aucun personnage trouvé.</p>
 }
 else
 {
-    <div class="card p-3">
-        <h4>@character.Name</h4>
-        <ul>
-            <li><strong>ID:</strong> @character.Id</li>
-            <li><strong>Niveau:</strong> @character.Level</li>
-            <li><strong>Job ID:</strong> @character.JobId</li>
-        </ul>
-    </div>
+    @foreach (var character in characters)
+    {
+        var job = jobs.FirstOrDefault(j => j.Id == character.JobId);
+        var jobName = job?.Name ?? "Inconnu";
+        var jobRole = job?.Role ?? "Inconnu";
+
+        <div class="card p-3 mb-3">
+            <h4>@character.Name</h4>
+            <ul>
+                <li><strong>Niveau:</strong> @character.Level</li>
+                <li><strong>Job:</strong> @jobName</li>
+                <li><strong>Rôle du Job:</strong> @jobRole</li>
+            </ul>
+            <button class="btn btn-warning" @onclick="() => EditCharacter(character.Id)">Modifier</button>
+
+        </div>
+    }
 }
 
 @code {
-    private CharacterDto? character;
+    private List<CharacterDto>? characters;
+    private List<JobDto>? jobs;
 
     protected override async Task OnInitializedAsync()
     {
         if (UserState.CurrentUser is not null)
         {
-            character = await CharacterService.GetCharacterForUserAsync(UserState.CurrentUser.Id);
+            characters = (await CharacterService.GetCharactersForUserAsync(UserState.CurrentUser.Id)).ToList();
+            jobs = await JobService.GetAllJobsAsync();
         }
     }
+
+    private void EditCharacter(int id)
+    {
+        Navigation.NavigateTo($"/edit-character/{id}");
+    }
+
 }

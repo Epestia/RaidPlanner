@@ -11,5 +11,8 @@ namespace RaidPlanner.Bll.Services.IServices
         Task<IEnumerable<CharacterModel>> GetAllCharactersAsync();
         Task<CharacterModel> UpdateCharacterAsync(CharacterModel characterModel);
         Task<bool> DeleteCharacterAsync(int id);
+        Task<IEnumerable<CharacterModel>> GetCharactersByUserIdAsync(int userId);
+
+
     }
 }

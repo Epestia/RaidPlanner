@@ -1,66 +1,82 @@
 ﻿@page "/create-character"
 @inject CharacterService CharacterService
+@inject JobService JobService
+@inject UserStateService UserState
 @using RaidPlanner.Front.Models
 @using Microsoft.AspNetCore.Components.Forms
 @using RaidPlanner.Front.Services
 
 <h3>Créer un Personnage</h3>
 
-<EditForm Model="@characterDto" OnValidSubmit="HandleValidSubmit">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <div class="form-group">
-        <label for="Name">Nom du personnage</label>
-        <InputText id="Name" class="form-control" @bind-Value="characterDto.Name" />
-        <ValidationMessage For="@(() => characterDto.Name)" />
-    </div>
-
-    <div class="form-group">
-        <label for="Level">Niveau</label>
-        <InputNumber id="Level" class="form-control" @bind-Value="characterDto.Level" />
-        <ValidationMessage For="@(() => characterDto.Level)" />
-    </div>
-
-    <div class="form-group">
-        <label for="JobId">Job (Classe)</label>
-        <InputNumber id="JobId" class="form-control" @bind-Value="characterDto.JobId" />
-        <ValidationMessage For="@(() => characterDto.JobId)" />
-    </div>
-
-    <div class="form-group">
-        <label for="UserId">ID de l'utilisateur</label>
-        <InputNumber id="UserId" class="form-control" @bind-Value="characterDto.UserId" />
-        <ValidationMessage For="@(() => characterDto.UserId)" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Créer</button>
-</EditForm>
-
-@if (isSuccess)
+@if (UserState.CurrentUser is null)
 {
-    <div class="alert alert-success mt-3">
-        Personnage créé avec succès!
-    </div>
+    <p>Vous devez être connecté pour créer un personnage.</p>
 }
-@if (isError)
+else
 {
-    <div class="alert alert-danger mt-3">
-        Une erreur s'est produite lors de la création du personnage.
-    </div>
+    <EditForm Model="@characterDto" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="Name">Nom du personnage</label>
+            <InputText id="Name" class="form-control" @bind-Value="characterDto.Name" />
+            <ValidationMessage For="@(() => characterDto.Name)" />
+        </div>
+
+        <div class="form-group">
+            <label for="Level">Niveau</label>
+            <InputNumber id="Level" class="form-control" @bind-Value="characterDto.Level" />
+            <ValidationMessage For="@(() => characterDto.Level)" />
+        </div>
+
+        <div class="form-group">
+            <label for="JobId">Job (Classe)</label>
+            <InputSelect id="JobId" class="form-control" @bind-Value="characterDto.JobId">
+                <option value="">-- Sélectionner un job --</option>
+                @foreach (var job in jobs)
+                {
+                    <option value="@job.Id">@job.Name (@job.Role)</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="@(() => characterDto.JobId)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Créer</button>
+    </EditForm>
+
+    @if (isSuccess)
+    {
+        <div class="alert alert-success mt-3">
+            Personnage créé avec succès!
+        </div>
+    }
+    @if (isError)
+    {
+        <div class="alert alert-danger mt-3">
+            Une erreur s'est produite lors de la création du personnage.
+        </div>
+    }
 }
 
 @code {
     private CharacterDto characterDto = new CharacterDto();
+    private List<JobDto> jobs = new(); 
     private bool isSuccess = false;
     private bool isError = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        jobs = await JobService.GetAllJobsAsync();
+    }
 
     private async Task HandleValidSubmit()
     {
         isSuccess = false;
         isError = false;
 
-        // Appel du service pour créer le personnage
+        characterDto.UserId = UserState.CurrentUser?.Id ?? 0;
+
         bool result = await CharacterService.CreateCharacterAsync(characterDto);
 
         if (result)

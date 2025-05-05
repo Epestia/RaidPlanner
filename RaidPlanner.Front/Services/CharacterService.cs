@@ -7,46 +7,53 @@ namespace RaidPlanner.Front.Services
     {
         private readonly HttpClient _httpClient;
 
-        // Injecte HttpClient via le constructeur
         public CharacterService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
-        // Méthode pour créer un personnage
         public async Task<bool> CreateCharacterAsync(CharacterDto characterDto)
         {
             try
             {
-                // Envoie la requête POST pour créer le personnage
                 var response = await _httpClient.PostAsJsonAsync("https://localhost:7131/api/Character", characterDto);
-
-                // Vérifie si la requête a réussi (code 2xx)
-                if (response.IsSuccessStatusCode)
-                {
-                    return true;
-                }
-            }
-            catch (Exception)
-            {
-                // En cas d'exception (comme une perte de connexion)
-                return false;
-            }
-
-            return false;
-        }
-        public async Task<CharacterDto?> GetCharacterForUserAsync(int userId)
-        {
-            try
-            {
-                return await _httpClient.GetFromJsonAsync<CharacterDto>($"https://localhost:7131/api/Character/user/{userId}");
+                return response.IsSuccessStatusCode;
             }
             catch
             {
-                return null;
+                return false;
             }
         }
+        public async Task<bool> UpdateCharacterAsync(CharacterDto character)
+        {
+            var response = await _httpClient.PutAsJsonAsync($"api/Character/{character.Id}", character);
+            return response.IsSuccessStatusCode;
+        }
 
+
+        public async Task<IEnumerable<CharacterDto>> GetCharactersForUserAsync(int userId)
+        {
+            try
+            {
+                return await _httpClient.GetFromJsonAsync<IEnumerable<CharacterDto>>(
+                    $"https://localhost:7131/api/Character/user/{userId}"
+                ) ?? new List<CharacterDto>();
+            }
+            catch
+            {
+                return new List<CharacterDto>();
+            }
+        }
+        public async Task<CharacterDto?> GetCharacterByIdAsync(int id)
+        {
+            var response = await _httpClient.GetAsync($"/api/Character/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<CharacterDto>();
+            }
+
+            return null;
+        }
 
     }
 }

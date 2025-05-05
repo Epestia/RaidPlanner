@@ -1,0 +1,81 @@
+﻿@page "/edit-character/{CharacterId:int}"
+@inject CharacterService CharacterService
+@inject JobService JobService
+@inject UserStateService UserState
+@inject NavigationManager Navigation
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+
+<h3>Modifier un personnage</h3>
+
+@if (UserState.CurrentUser == null)
+{
+    <p>Vous devez être connecté pour accéder à cette page.</p>
+}
+else if (selectedCharacter == null || jobs == null)
+{
+    <p>Chargement...</p>
+}
+else
+{
+    <EditForm Model="selectedCharacter" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="name">Nom :</label>
+            <InputText id="name" class="form-control" @bind-Value="selectedCharacter.Name" />
+        </div>
+
+        <div class="mb-3">
+            <label for="level">Niveau :</label>
+            <InputNumber id="level" class="form-control" @bind-Value="selectedCharacter.Level" />
+        </div>
+
+        <div class="mb-3">
+            <label for="job">Job :</label>
+            <select id="job" class="form-select" @bind="selectedCharacter.JobId">
+                @foreach (var job in jobs)
+                {
+                    <option value="@job.Id">@job.Name</option>
+                }
+            </select>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Enregistrer les modifications</button>
+        <button class="btn btn-secondary ms-2" @onclick="@(() => Navigation.NavigateTo("/character"))">Annuler</button>
+
+
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int CharacterId { get; set; }
+
+    private CharacterDto? selectedCharacter;
+    private List<JobDto> jobs = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserState.CurrentUser != null)
+        {
+            selectedCharacter = await CharacterService.GetCharacterByIdAsync(CharacterId);
+            jobs = await JobService.GetAllJobsAsync();
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (selectedCharacter != null)
+        {
+            var result = await CharacterService.UpdateCharacterAsync(selectedCharacter);
+            if (result)
+            {
+                Navigation.NavigateTo("/character");
+            }
+        }
+    }
+}

@@ -48,5 +48,12 @@ namespace RaidPlanner.Bll.Services
             await _characterRepository.DeleteCharacterAsync(id);
             return true;
         }
+        public async Task<IEnumerable<CharacterModel>> GetCharactersByUserIdAsync(int userId)
+        {
+            var characters = await _characterRepository.GetCharactersByUserIdAsync(userId);
+            return characters.Adapt<IEnumerable<CharacterModel>>();
+        }
+
+
     }
 }

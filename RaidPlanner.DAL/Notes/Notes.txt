@@ -29,3 +29,9 @@ Raid (1) ─── (n) RaidSession
 
 Raid (1) ─── (n) Recompenses
  
+
+
+Utilisateur creer un compte 
+Utilisateur ce connecte
+Utilisateur creer un personnage
+L'utilisateur met ces disponibilité 

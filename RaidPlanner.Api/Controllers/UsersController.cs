@@ -33,6 +33,7 @@ namespace RaidPlanner.Api.Controllers
                 var createdUser = await _userService.CreateUserAsync(userModel);
                 var createdUserDto = createdUser.Adapt<UserDto>();
                 return CreatedAtAction(nameof(GetUserById), new { id = createdUserDto.Id }, createdUserDto);
+
             }
             catch (ArgumentException ex)
             {

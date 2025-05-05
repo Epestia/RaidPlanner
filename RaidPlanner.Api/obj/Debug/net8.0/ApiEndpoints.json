@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "RaidPlanner.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "RaidPlanner.Api.Dto.AuthDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RaidPlanner.Api.Controllers.AvailabilityController",
     "Method": "GetAll",
     "RelativePath": "api/Availability",
@@ -206,6 +222,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RaidPlanner.Api.Controllers.CharacterController",
+    "Method": "GetCharactersByUserId",
+    "RelativePath": "api/Character/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RaidPlanner.Bll.ObjectModels.CharacterModel, RaidPlanner.Bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "RaidPlanner.Api.Controllers.ExtensionController",
@@ -969,8 +1011,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDto",
-        "Type": "RaidPlanner.Api.Dto.UserDto",
+        "Name": "loginDto",
+        "Type": "RaidPlanner.Api.Dto.LoginDto",
         "IsRequired": true
       }
     ],

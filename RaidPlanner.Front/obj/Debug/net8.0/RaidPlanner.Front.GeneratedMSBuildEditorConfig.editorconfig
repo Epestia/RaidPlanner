@@ -13,51 +13,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = RaidPlanner.Front
 build_property.RootNamespace = RaidPlanner.Front
-build_property.ProjectDir = C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front\
+build_property.ProjectDir = C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\d.menegon\Desktop\RaidPlanner\RaidPlanner.Front
+build_property.MSBuildProjectDirectory = C:\Users\Epestia\Desktop\RaidPlanner\RaidPlanner.Front
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/App.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Character.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Character.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateCharacter.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateCharacter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQ2hhcmFjdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateUser.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Home.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/EditCharacter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENoYXJhY3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Login.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Profile.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/_Imports.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Layout/MainLayout.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pa8fi1rjh7
 
-[C:/Users/d.menegon/Desktop/RaidPlanner/RaidPlanner.Front/Layout/NavMenu.razor]
+[C:/Users/Epestia/Desktop/RaidPlanner/RaidPlanner.Front/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2u71xdoav4
