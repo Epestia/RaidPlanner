@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.dal\\notes\\connectionstrings.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|solutionrelative:raidplanner.dal\\notes\\connectionstrings.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|solutionrelative:raidplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|solutionrelative:raidplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F56C99C3-77A4-4272-AA74-FC562ED94061}|RaidPlanner.Bll\\RaidPlanner.Bll.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F56C99C3-77A4-4272-AA74-FC562ED94061}|RaidPlanner.Bll\\RaidPlanner.Bll.csproj|solutionrelative:raidplanner.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{90C5F9A0-EA4E-47AB-B75B-03A1F24B0BBE}|RaidPlanner.Front\\RaidPlanner.Front.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.front\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{90C5F9A0-EA4E-47AB-B75B-03A1F24B0BBE}|RaidPlanner.Front\\RaidPlanner.Front.csproj|solutionrelative:raidplanner.front\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|solutionrelative:raidplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\dto\\raidsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -205,14 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.dal\\notes\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|solutionrelative:raidplanner.dal\\notes\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.dal\\notes\\connectionstrings.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6854D4A5-E50D-40A0-9F4D-C121B4B67E07}|RaidPlanner.DAL\\RaidPlanner.DAL.csproj|solutionrelative:raidplanner.dal\\notes\\connectionstrings.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|solutionrelative:raidplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{686D0B80-8EF1-431F-9B54-C96DC6106216}|RaidPlanner.Api\\RaidPlanner.Api.csproj|c:\\users\\epestia\\desktop\\raidplanner\\raidplanner.api\\services\\jwtmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -510,47 +510,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "RaidPlanner.Front\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "RaidPlanner.Front\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T08:06:38.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "RaidPlanner.Front\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "RaidPlanner.Front\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T08:15:49.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AvailabilityService.cs",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\AvailabilityService.cs",
-              "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\AvailabilityService.cs",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\AvailabilityService.cs",
-              "RelativeToolTip": "RaidPlanner.Front\\Services\\AvailabilityService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwCsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:41:11.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AvailabilityDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\AvailabilityDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\AvailabilityDto.cs",
@@ -562,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AuthDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\AuthDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\AuthDto.cs",
@@ -574,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "UserStateService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\UserStateService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\UserStateService.cs",
@@ -586,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\UserService.cs",
@@ -598,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RaidSessionService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\RaidSessionService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\RaidSessionService.cs",
@@ -610,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "RaidDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\RaidDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\RaidDto.cs",
@@ -622,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RaidSessionDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Dto\\RaidSessionDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Dto\\RaidSessionDto.cs",
@@ -634,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Program.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Program.cs",
@@ -646,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RaidPlanner.Api.csproj",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\RaidPlanner.Api.csproj",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\RaidPlanner.Api.csproj",
@@ -654,12 +618,11 @@
               "RelativeToolTip": "RaidPlanner.Api\\RaidPlanner.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T14:19:18.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T14:19:18.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Controllers\\UsersController.cs",
@@ -667,12 +630,11 @@
               "RelativeToolTip": "RaidPlanner.Api\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAIA7wCEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:47:28.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T22:47:28.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Dto\\UserDto.cs",
@@ -680,25 +642,84 @@
               "RelativeToolTip": "RaidPlanner.Api\\Dto\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:45:14.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T22:45:14.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\UserService.cs",
+              "RelativeToolTip": "RaidPlanner.Bll\\Services\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:33:13.645Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\UserService.cs*",
-              "RelativeToolTip": "RaidPlanner.Bll\\Services\\UserService.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T22:33:13.645Z",
+              "Title": "ConnectionStrings.txt",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
+              "RelativeDocumentMoniker": "RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
+              "RelativeToolTip": "RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-05T08:02:24.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
+              "Title": "AvailabilityService.cs",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\AvailabilityService.cs",
+              "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\AvailabilityService.cs",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\AvailabilityService.cs",
+              "RelativeToolTip": "RaidPlanner.Front\\Services\\AvailabilityService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:41:11.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "RaidPlanner.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\appsettings.json",
+              "RelativeToolTip": "RaidPlanner.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T18:41:33.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RaidPlanner.Front\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "RaidPlanner.Front\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T08:15:49.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "RaidPlanner.Front\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "RaidPlanner.Front\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T08:06:38.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CreateCharacter.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\CreateCharacter.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\CreateCharacter.razor",
@@ -710,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CharacterService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\CharacterService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\CharacterService.cs",
@@ -722,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RaidSessionDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\RaidSessionDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\RaidSessionDto.cs",
@@ -734,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RaidSession.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\RaidSession.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\RaidSession.razor",
@@ -746,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CreateUser.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\CreateUser.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\CreateUser.razor",
@@ -758,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Availability.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\Availability.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\Availability.razor",
@@ -770,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\AuthService.cs",
@@ -782,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "RaidService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\RaidService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\RaidService.cs",
@@ -794,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\IServices\\IUserService.cs",
@@ -806,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IAvailabilityRepository.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Repository\\IRepository\\IAvailabilityRepository.cs",
               "RelativeDocumentMoniker": "RaidPlanner.DAL\\Repository\\IRepository\\IAvailabilityRepository.cs",
@@ -818,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AvailabilityRepository.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Repository\\AvailabilityRepository.cs",
               "RelativeDocumentMoniker": "RaidPlanner.DAL\\Repository\\AvailabilityRepository.cs",
@@ -830,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IAvailabilityService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\IServices\\IAvailabilityService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\IServices\\IAvailabilityService.cs",
@@ -842,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AvailabilityController.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Controllers\\AvailabilityController.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Controllers\\AvailabilityController.cs",
@@ -854,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "CreateRaidSession.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\CreateRaidSession.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\CreateRaidSession.razor",
@@ -866,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Profile.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\Profile.razor",
@@ -878,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AvailabilityService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\AvailabilityService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\AvailabilityService.cs",
@@ -890,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\UserDto.cs",
@@ -902,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CreateAvailability.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\CreateAvailability.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\CreateAvailability.razor",
@@ -914,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "AvailabilityDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Dto\\AvailabilityDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Dto\\AvailabilityDto.cs",
@@ -926,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Program.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Program.cs",
@@ -938,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "CharacterService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\CharacterService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\CharacterService.cs",
@@ -950,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "CharacterController.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Controllers\\CharacterController.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Controllers\\CharacterController.cs",
@@ -962,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "RaidSessionModel.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\ObjectModels\\RaidSessionModel.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\ObjectModels\\RaidSessionModel.cs",
@@ -974,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "RaidController.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\Controllers\\RaidController.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Api\\Controllers\\RaidController.cs",
@@ -986,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Character.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\Character.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\Character.razor",
@@ -998,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\Home.razor",
@@ -1010,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "CharacterDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\CharacterDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\CharacterDto.cs",
@@ -1022,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "AvailabilityModel.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\ObjectModels\\AvailabilityModel.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\ObjectModels\\AvailabilityModel.cs",
@@ -1034,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "JobService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Services\\JobService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Services\\JobService.cs",
@@ -1046,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "JobDto.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Models\\JobDto.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Models\\JobDto.cs",
@@ -1058,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "EditCharacter.razor",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Front\\Pages\\EditCharacter.razor",
               "RelativeDocumentMoniker": "RaidPlanner.Front\\Pages\\EditCharacter.razor",
@@ -1070,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\ObjectModels\\UserModel.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\ObjectModels\\UserModel.cs",
@@ -1082,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "ICharacterService.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Bll\\Services\\IServices\\ICharacterService.cs",
               "RelativeDocumentMoniker": "RaidPlanner.Bll\\Services\\IServices\\ICharacterService.cs",
@@ -1094,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "ICharacterRepository.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Repository\\IRepository\\ICharacterRepository.cs",
               "RelativeDocumentMoniker": "RaidPlanner.DAL\\Repository\\IRepository\\ICharacterRepository.cs",
@@ -1106,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "CharacterRepository.cs",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Repository\\CharacterRepository.cs",
               "RelativeDocumentMoniker": "RaidPlanner.DAL\\Repository\\CharacterRepository.cs",
@@ -1118,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "Notes.txt",
               "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Notes\\Notes.txt",
               "RelativeDocumentMoniker": "RaidPlanner.DAL\\Notes\\Notes.txt",
@@ -1127,18 +1148,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-04-26T16:37:16.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ConnectionStrings.txt",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
-              "RelativeDocumentMoniker": "RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
-              "RelativeToolTip": "RaidPlanner.DAL\\Notes\\ConnectionStrings.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-05T08:02:24.638Z"
             },
             {
               "$type": "Document",
@@ -1247,18 +1256,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T22:09:19.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "RaidPlanner.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Epestia\\Desktop\\RaidPlanner\\RaidPlanner.Api\\appsettings.json",
-              "RelativeToolTip": "RaidPlanner.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-26T18:41:33.326Z"
             },
             {
               "$type": "Document",
@@ -1990,8 +1987,7 @@
               "RelativeToolTip": "RaidPlanner.Front\\RaidPlanner.Front.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T14:25:36.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T14:25:36.359Z"
             },
             {
               "$type": "Document",
@@ -2003,8 +1999,7 @@
               "RelativeToolTip": "RaidPlanner.Bll\\RaidPlanner.Bll.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T14:17:54.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T14:17:54.833Z"
             },
             {
               "$type": "Document",
@@ -2016,8 +2011,7 @@
               "RelativeToolTip": "RaidPlanner.DAL\\RaidPlanner.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T14:11:46.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T14:11:46.304Z"
             }
           ]
         }
