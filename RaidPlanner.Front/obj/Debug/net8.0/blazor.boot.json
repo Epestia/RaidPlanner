@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RaidPlanner.Front",
   "resources": {
-    "hash": "sha256-sQvuKbSJRo+CG6Rq7A5F7w9ACP+uzzJKRdq91/aJ8Zw=",
+    "hash": "sha256-jvbrCrVkYYg29FqfoWtXhB3NKVD75ez7bqm+VOL041M=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "RaidPlanner.Front.wasm": "sha256-oVF5lgqYUVazvchZLlu4V6jlEUvJRGNVIcaWbuC2hEk="
+      "RaidPlanner.Front.wasm": "sha256-aon4iJGgr4HmhGk95OtSwTEHI/JKzyMNJTsGp1HFi3Y="
     },
     "pdb": {
-      "RaidPlanner.Front.pdb": "sha256-X9xOmxeq6XbeSVUlagPDqZVfjOS8soi1LAiTTgJVnq8="
+      "RaidPlanner.Front.pdb": "sha256-E3THn48efPrpoZI/fXxiFEyphdMtJDOyZmjT2gLHb40="
     }
   },
   "cacheBootResources": true,
