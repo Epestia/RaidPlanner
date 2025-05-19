@@ -1,5 +1,6 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using RaidPlanner.Api.Dto;
+using RaidPlanner.Bll.ObjectModels;
 using RaidPlanner.DAL.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -10,41 +11,30 @@ namespace RaidPlanner.Api.Services
 {
     public class JwtManager
     {
-        public static string GenerateToken(JwtOptions jwtoption, LoginDto u)
+        public static string GenerateToken(JwtOptions jwtoption, UserModel user)
         {
-            //Générer le token et le renvoyer
-            //1- string key vers byte key
             byte[] skey = Encoding.UTF8.GetBytes(jwtoption.SigningKey);
             SymmetricSecurityKey laCle = new SymmetricSecurityKey(skey);
 
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Sid, user.Id.ToString()),
+        new Claim(ClaimTypes.Name, user.Username),
+        new Claim(ClaimTypes.Email, user.Mail),
+        new Claim(ClaimTypes.Role, user.RoleId.ToString())
+    };
 
-            //2- Quleque claims
-            Claim Sid = new Claim(ClaimTypes.Sid, u.Id.ToString());
-            Claim infoNom = new Claim(ClaimTypes.Name, u.Username);
-            Claim Rols = new Claim(ClaimTypes.Role, u.Username == "Dylan" ? "Boulet" : "Admin");
+            JwtSecurityToken token = new JwtSecurityToken(
+                issuer: jwtoption.Issuer,
+                audience: jwtoption.Audience,
+                claims: claims,
+                expires: DateTime.Now.AddSeconds(jwtoption.Expiration),
+                signingCredentials: new SigningCredentials(laCle, SecurityAlgorithms.HmacSha256)
+            );
 
-            List<Claim> mesClaims = new List<Claim>
-            {   Sid,
-                infoNom,
-                Rols
-            };
-
-            //3 config et génération
-            JwtSecurityToken Token = new JwtSecurityToken(
-        issuer: jwtoption.Issuer,
-                 audience: jwtoption.Audience,
-                 claims: mesClaims,
-                 expires: DateTime.Now.AddSeconds(jwtoption.Expiration),
-                 signingCredentials: new SigningCredentials(laCle, SecurityAlgorithms.HmacSha256)
-
-             );
-
-
-            string leTokenArenvoyer = new JwtSecurityTokenHandler().WriteToken(Token);
-            u.Access_Token = leTokenArenvoyer;
-            u.Refresh_Token = GenerateRefreshToken();
-            return leTokenArenvoyer;
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         public static string GenerateRefreshToken()
         {

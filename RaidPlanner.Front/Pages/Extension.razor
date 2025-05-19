@@ -1,0 +1,36 @@
+﻿@page "/extensions"
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+@inject ExtensionService ExtensionService
+
+<h2>Liste des Extensions</h2>
+
+@if (extensions == null)
+{
+    <p>Chargement...</p>
+}
+else if (!extensions.Any())
+{
+    <p>Aucune extension trouvée.</p>
+}
+else
+{
+    <ul>
+        @foreach (var extension in extensions)
+        {
+            <li>
+                <strong>@extension.Name</strong><br />
+                @extension.Description
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<ExtensionDto>? extensions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        extensions = await ExtensionService.GetExtensionsAsync();
+    }
+}

@@ -1,1 +1,97 @@
-﻿
+﻿@page "/create-raid-session"
+@using RaidPlanner.Front.Models
+@using RaidPlanner.Front.Services
+@inject RaidSessionService RaidSessionService
+@inject RaidService RaidService
+@inject NavigationManager NavigationManager
+
+<h2>Créer une session de raid</h2>
+
+@if (raids == null)
+{
+    <p>Chargement des raids...</p>
+}
+else
+{
+    <EditForm Model="newRaidSession" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label>Raid :</label>
+            <select @bind="newRaidSession.RaidId" class="form-control">
+                <option value="">-- Sélectionner un raid --</option>
+                @foreach (var raid in raids)
+                {
+                    <option value="@raid.Id">@raid.Name</option>
+                }
+            </select>
+        </div>
+
+        <div>
+            <label>Date :</label>
+            <InputDate @bind-Value="newRaidSession.Date" class="form-control" />
+        </div>
+
+        <div>
+            <label>Heure de début :</label>
+            <InputText @bind-Value="startTimeStr" class="form-control" placeholder="HH:mm" />
+        </div>
+
+        <div>
+            <label>Heure de fin :</label>
+            <InputText @bind-Value="endTimeStr" class="form-control" placeholder="HH:mm" />
+        </div>
+
+        <div>
+            <label>Description :</label>
+            <InputTextArea @bind-Value="newRaidSession.Description" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Créer</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <p>@message</p>
+    }
+}
+
+@code {
+    private RaidSessionDto newRaidSession = new();
+    private List<RaidDto>? raids;
+    private string? startTimeStr;
+    private string? endTimeStr;
+    private string message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        raids = await RaidService.GetRaidsAsync();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        // Conversion des heures
+        if (TimeSpan.TryParse(startTimeStr, out var start) && TimeSpan.TryParse(endTimeStr, out var end))
+        {
+            newRaidSession.StartTime = start;
+            newRaidSession.EndTime = end;
+
+            var success = await RaidSessionService.CreateRaidSessionAsync(newRaidSession);
+
+            if (success)
+            {
+                message = "Session de raid créée avec succès.";
+                NavigationManager.NavigateTo("/raid-sessions"); 
+            }
+            else
+            {
+                message = "Erreur lors de la création de la session.";
+            }
+        }
+        else
+        {
+            message = "Format d'heure invalide. Utilise HH:mm.";
+        }
+    }
+}

@@ -2,7 +2,7 @@
 @using RaidPlanner.Front.Models
 @using RaidPlanner.Front.Services
 @inject AvailabilityService AvailabilityService
-@inject IJSRuntime JSRuntime
+@inject UserStateService UserStateService
 
 <h3>Mes disponibilités</h3>
 
@@ -15,7 +15,7 @@ else
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Description de la session de Raid</th> <!-- Afficher la description de la session -->
+                <th>Description de la session de Raid</th>
                 <th>Date</th>
                 <th>Status</th>
             </tr>
@@ -24,7 +24,7 @@ else
             @foreach (var availability in userAvailability)
             {
                 <tr>
-                    <td>@availability.RaidSessionDescription</td> <!-- Afficher la description -->
+                    <td>@availability.RaidSessionDescription</td>
                     <td>@availability.Date.ToString("dd/MM/yyyy HH:mm")</td>
                     <td>@availability.Status</td>
                 </tr>
@@ -38,7 +38,13 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        int userId = 9; // Utilisateur connecté ou un ID d'exemple
-        userAvailability = await AvailabilityService.GetAvailabilityByUserIdAsync(userId);
+        var userId = UserStateService.CurrentUser?.Id;
+
+        if (userId == null)
+        {
+            return;
+        }
+
+        userAvailability = await AvailabilityService.GetAvailabilityByUserIdAsync(userId.Value);
     }
 }

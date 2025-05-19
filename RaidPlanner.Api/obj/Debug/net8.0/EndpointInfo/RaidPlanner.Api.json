@@ -1930,27 +1930,11 @@
       "LoginDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "username": {
             "type": "string",
             "nullable": true
           },
-          "mail": {
-            "type": "string",
-            "nullable": true
-          },
           "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "access_Token": {
-            "type": "string",
-            "nullable": true
-          },
-          "refresh_Token": {
             "type": "string",
             "nullable": true
           }

@@ -104,26 +104,31 @@ namespace RaidPlanner.Api.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginDto loginDto)
         {
-            //Appel sur service user pour verifier login et mot de passe
-            UserModel MonUser = new UserModel
+            var user = await _userService.ValidateUser(loginDto.Username, loginDto.Password);
+            if (user == null)
+                return Unauthorized("Identifiants incorrects");
+
+            var token = JwtManager.GenerateToken(jwtOptions, user);
+            var refreshToken = JwtManager.GenerateRefreshToken();
+
+            return Ok(new
             {
-                Id = 1,
-                Mail = "dylan@zebest.java",
-                RoleId = 1,
-                Username = "Dylan"
-            };
-            //Si le mot de passe est correct 
-            if(MonUser == null) {
-                return NotFound();
-            }
-
-            //génération du jwt pour le user
-            loginDto.Access_Token = JwtManager.GenerateToken(jwtOptions, loginDto);
-
-            return Ok(loginDto);
-
+                access_token = token,
+                refresh_token = refreshToken,
+                user = new
+                {
+                    id = user.Id,
+                    username = user.Username,
+                    mail = user.Mail,
+                    roleId = user.RoleId
+                }
+            });
         }
 
+
+        //Appel sur service user pour verifier login et mot de passe
+        //Si le mot de passe est correct 
+        //génération du jwt pour le user
     }
-    
+
 }

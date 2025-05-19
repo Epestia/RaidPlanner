@@ -6,17 +6,20 @@
 <div class="raid-container">
     <h2>Liste des Raids</h2>
 
-    @if (groupedRaids == null)
+    <input type="text" @bind="SearchTerm" placeholder="Rechercher un raid..." class="search-bar" />
+
+
+    @if (filteredGroupedRaids == null)
     {
         <p>Chargement...</p>
     }
-    else if (groupedRaids.Count == 0)
+    else if (filteredGroupedRaids.Count == 0)
     {
         <p>Aucun raid trouvé.</p>
     }
     else
     {
-        @foreach (var group in groupedRaids)
+        @foreach (var group in filteredGroupedRaids)
         {
             <div class="raid-category">@group.Key</div>
             <ul class="raid-list">
@@ -35,6 +38,8 @@
 
 @code {
     private Dictionary<string, List<RaidDto>>? groupedRaids;
+    private Dictionary<string, List<RaidDto>>? filteredGroupedRaids;
+    private string searchTerm = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
@@ -44,7 +49,45 @@
             .GroupBy(r => GetRaidCategory(r.Name))
             .OrderBy(g => g.Key)
             .ToDictionary(g => g.Key, g => g.OrderBy(r => r.Name).ToList());
+
+        FilterRaids();
     }
+
+    private void FilterRaids()
+    {
+        if (groupedRaids == null)
+        {
+            filteredGroupedRaids = null;
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredGroupedRaids = groupedRaids;
+        }
+        else
+        {
+            var lowerSearch = searchTerm.ToLower();
+
+            filteredGroupedRaids = groupedRaids
+                .Where(g =>
+                    g.Key.Contains(lowerSearch, StringComparison.OrdinalIgnoreCase) || 
+                    g.Value.Any(r => r.Name.Contains(lowerSearch, StringComparison.OrdinalIgnoreCase))
+                )
+                .Select(g => new
+                {
+                    g.Key,
+                    Raids = g.Value
+                        .Where(r =>
+                            g.Key.Contains(lowerSearch, StringComparison.OrdinalIgnoreCase) || 
+                            r.Name.Contains(lowerSearch, StringComparison.OrdinalIgnoreCase)
+                        ).ToList()
+                })
+                .Where(g => g.Raids.Any())
+                .ToDictionary(g => g.Key, g => g.Raids);
+        }
+    }
+
 
     private string GetRaidCategory(string name)
     {
@@ -61,5 +104,18 @@
             name.Contains("Poids lourds-légers", StringComparison.OrdinalIgnoreCase)) return "The Arckadion";
         if (name.Contains("Bahamut", StringComparison.OrdinalIgnoreCase)) return "Bahamut";
         return "Autres";
+    }
+
+    private string SearchTerm
+    {
+        get => searchTerm;
+        set
+        {
+            if (searchTerm != value)
+            {
+                searchTerm = value;
+                FilterRaids();
+            }
+        }
     }
 }

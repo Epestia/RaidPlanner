@@ -12,7 +12,6 @@ namespace RaidPlanner.Front.Services
             _httpClient = httpClient;
         }
 
-        // Méthode pour récupérer les sessions de raid
         public async Task<List<RaidSessionDto>> GetRaidSessionsAsync()
         {
             try
@@ -22,14 +21,27 @@ namespace RaidPlanner.Front.Services
             catch (Exception ex)
             {
                 Console.WriteLine($"Erreur lors de la récupération des sessions de raid : {ex.Message}");
-                return new List<RaidSessionDto>(); // Retourner une liste vide en cas d'erreur
+                return new List<RaidSessionDto>();
+            }
+        }
+
+        public async Task<List<RaidSessionDto>> GetRaidSessionsByUserIdAsync(int userId)
+        {
+            try
+            {
+                return await _httpClient.GetFromJsonAsync<List<RaidSessionDto>>($"https://localhost:7131/api/RaidSession/user/{userId}")
+                    ?? new List<RaidSessionDto>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erreur lors de la récupération des sessions pour l'utilisateur {userId} : {ex.Message}");
+                return new List<RaidSessionDto>();
             }
         }
 
         public async Task<bool> CreateRaidSessionAsync(RaidSessionDto raidSessionDto)
         {
             var response = await _httpClient.PostAsJsonAsync("https://localhost:7131/api/RaidSession", raidSessionDto);
-
             return response.IsSuccessStatusCode;
         }
     }

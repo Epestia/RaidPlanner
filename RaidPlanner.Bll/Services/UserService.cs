@@ -93,9 +93,11 @@ namespace RaidPlanner.Bll.Services
             {
                 Id = user.Id,
                 Username = user.Username,
-                Mail = user.Mail
+                Mail = user.Mail,
+                RoleId = user.RoleId
             };
         }
+
 
     }
 }

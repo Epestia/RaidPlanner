@@ -1,5 +1,4 @@
-﻿
-using RaidPlanner.Front.Models;
+﻿using RaidPlanner.Front.Models;
 
 namespace RaidPlanner.Front.Services
 {
@@ -13,6 +12,11 @@ namespace RaidPlanner.Front.Services
         {
             CurrentUser = user;
             NotifyStateChanged();
+        }
+
+        public int? GetUserId()
+        {
+            return CurrentUser?.Id; 
         }
 
         public void Logout()

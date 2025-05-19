@@ -1,6 +1,5 @@
 ﻿@page "/login"
 @using RaidPlanner.Front.Models
-@using RaidPlanner.Front.Services
 @inject AuthService AuthService
 @inject NavigationManager Navigation
 
@@ -26,10 +25,11 @@
         bool success = await AuthService.LoginAsync(loginDto);
         if (success)
         {
-            Navigation.NavigateTo("/");
+            Navigation.NavigateTo("/"); 
         }
         else
         {
             errorMessage = "Nom d'utilisateur ou mot de passe invalide.";
         }
-    }}
+    }
+}
